@@ -1,0 +1,1 @@
+This is an implementation of FreeCodeCamp's URL Shortener Microservice API, as described [here](https://www.freecodecamp.com/challenges/url-shortener-microservice).

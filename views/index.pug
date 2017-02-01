@@ -1,0 +1,24 @@
+html
+  head
+    title URL Shortener Microservice | FreeCodeCamp
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+  body
+    .container
+        .page-header
+            h1 URL Shortener Microservice #[small FreeCodeCamp API Projects]
+        .content
+            p
+                |This is an implementation of FreeCodeCamp's 
+                a(href="https://www.freecodecamp.com/challenges/url-shortener-microservice") URL Shortener API project
+                |.
+            h3 Example usage:
+            code= siteurl+'/new/https://www.google.com'
+            br
+            code= siteurl+'/new/http://foo.com:80'
+            h3 Example creation output:
+            code
+                |{ "original_url":"http://foo.com:80", "short_url":"#{siteurl}/4obu0A"}
+            h3 Usage
+            code #{siteurl}/4nHX1I
+            h3 Will redirect to
+            code https://www.google.com

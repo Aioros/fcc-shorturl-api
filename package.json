@@ -1,0 +1,26 @@
+{
+  "name": "fcc-shorturl-api",
+  "version": "1.0.0",
+  "description": "An implementation of FreeCodeCamp's URL Shortener Microservice API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aioros/fcc-shorturl-api.git"
+  },
+  "author": "Aioros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aioros/fcc-shorturl-api/issues"
+  },
+  "homepage": "https://github.com/Aioros/fcc-shorturl-api#readme",
+  "dependencies": {
+    "base-x": "^2.0.3",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22",
+    "pug": "^0.1.0"
+  }
+}
